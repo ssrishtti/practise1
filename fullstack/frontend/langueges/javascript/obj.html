@@ -1,0 +1,11 @@
+<script>
+    let laptops=[{name:'lenovo',os:'windows'},
+    {name:'acer',os:'windows',color:'black'},
+    {name:'macbook',os:'macos',color:'black',cost:82000}
+    ]
+    let pc=laptops.find((val) => {return val.os === 'macos'});
+    console.log(pc)
+
+    let pc2=laptops.filter((val) => {return val.color === 'black'})
+    console.log(pc2)
+</script>
